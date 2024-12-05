@@ -1,0 +1,554 @@
+body {
+    background-color: #141431;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sitebar {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 10%;
+    justify-content: center;
+    background-color: rgba(58, 57, 57, 0.466);
+    width: 30%;
+    margin: 0 auto;
+    padding: 1%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sitebar a:visited {
+    color: inherit
+}
+
+.sitebar a {
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.sitebar a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sitebar a:hover {
+    transform: scale(1.2);
+}
+
+.header {
+    font-size: 1.3rem;
+    text-align: right;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-image: url("./uyfydu6.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 11%;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 30px;
+}
+
+.header img {
+    border-radius: 50%;
+    margin-left: 5%;
+    transition: transform 0.5s ease;
+}
+
+.header img:hover {
+    transform: scale(1.1);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.204);
+    border-radius: 30px;
+    margin: 1%;
+    padding: 3%;
+    padding-bottom: 1%;
+    width: 60%;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border: solid 3px blue;
+}
+
+.html {
+    border-top: aqua solid;
+    width: 65%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+  
+.css {
+    border-top: aqua solid;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+
+.javascript {
+    border-top: aqua solid;
+    width: 65%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+
+.react {
+    border-top: aqua solid;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+
+.redux {
+    border-top: aqua solid;
+    width: 15%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+
+.cpp {
+    border-top: aqua solid;
+    width: 37%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+
+.responsive {
+    border-top: aqua solid;
+    width: 65%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    animation: bold 2s infinite;
+}
+
+.english {
+    border-top: aqua solid;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 50%;
+    animation: bold 2s infinite;
+}
+
+.german {
+    border-top: aqua solid;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 50%;
+    animation: bold 2s infinite;
+}
+
+@keyframes bold {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.204);
+    border-radius: 30px;
+    padding: 2.5%;
+    margin: 1%;
+    border: solid 3px blue;
+}
+
+.answer {
+    color: aqua;
+    text-align: right;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+  
+.question {
+    color: white;
+    text-align: right;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.ending {
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    background-color: #121248a7;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 30px;
+}
+
+.ending h3 {
+    margin-right: 2%;
+}
+
+.ending a {
+    font-size: 40px;
+    margin-right: 2%;
+    color: aqua;
+}
+
+.ending a:hover {
+    color: rgb(50, 50, 255);
+}
+
+.footer {
+    font-size: 18px;
+    color: white;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    text-align: right;
+    padding: 1%;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 1.2%;
+    font-size: 35px;
+}
+
+.footer a {
+    color: blue;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer a:hover {
+    transform: scale(1.3);
+    color: red;
+}
+
+.contact {
+    display: none;
+}
+
+.contact-button {
+    background-color: rgb(20, 176, 248);
+    padding: 1%;
+    border-radius: 30px;
+    margin-right: 2%;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 2%;
+}
+
+.contact-button:hover {
+    background-color: blue;
+}
+
+
+/* media queries: */
+
+
+@media screen and (max-width: 1190px) {
+    .sitebar {
+        font-size: 1.4rem;
+        padding: 1% 4% 1% 4%;
+    }
+
+    .header {
+        font-size: 1.1rem;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .sitebar {
+        width: 35%;
+    }
+
+    .header {
+        font-size: 0.9rem;
+    }
+
+    .header img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .sitebar {
+        width: 45%;
+    }
+
+    .header {
+        font-size: 0.8rem;
+    }
+
+    .header img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .main {
+        column-gap: 0;
+    }
+
+    .skills {
+        font-size: 0.6rem;
+        width: 70%;
+    }
+
+    .information {
+        font-size: 0.7rem;
+    }
+
+    .ending {
+        font-size: 0.9rem;
+    }
+
+    .ending a {
+        font-size: 2rem;
+        margin-right: 3%;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .footer a {
+        font-size: 2rem;
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sitebar {
+        width: 55%;
+    }
+
+    .header {
+        font-size: 0.65rem;
+    }
+
+    .header img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .skills {
+        font-size: 0.55rem;
+        width: 70%;
+    }
+
+    .information {
+        font-size: 0.65rem;
+    }
+
+    .ending {
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+
+    .footer a {
+        font-size: 1.8rem;
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .sitebar {
+        font-size: 1.1rem;
+        padding: 2%;
+        width: 60%;
+    }
+
+    .header {
+        font-size: 0.55rem;
+        column-gap: 2%;
+    }
+
+    .header img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .skills {
+        margin-top: 2%;
+        width: auto;
+        font-size: 0.7rem;
+    }
+
+    .information {
+        width: auto;
+        font-size: 0.8rem;
+        grid-template-columns: 3fr 1fr;
+        background-image: url("./Neural\ Network\ Art.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 2%;
+    }
+
+    .ending {
+        font-size: 0.7rem;
+    }
+
+    .contact-button {
+        font-size: 0.6rem;
+    }
+
+    .ending a {
+        font-size: 1.7rem;
+        margin-right: 4%;
+    }
+
+    .footer {
+        font-size: 0.7rem;
+    }
+
+    .footer a {
+        font-size: 1.6rem;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sitebar {
+        font-size: 0.7rem;
+        padding: 2%;
+    }
+
+    .header {
+        font-size: 0.45rem;
+        column-gap: 2%;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills {
+        font-size: 0.6rem;
+        padding: 4%;
+    }
+
+    .information {
+        font-size: 0.7rem;
+    }
+
+    .ending {
+        font-size: 0.5rem;
+    }
+
+    .contact-button {
+        font-size: 0.5rem;
+    }
+
+    .ending a {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        font-size: 0.5rem;
+    }
+
+    .footer a {
+        font-size: 1.3rem;
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 353px) {
+    .sitebar {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+
+    .header {
+        font-size: 0.35rem;
+        column-gap: 2%;
+    }
+
+    .header img {
+        width: 80px;
+        height: 80px;
+        margin-right: 1%;
+    }
+
+    .skills {
+        font-size: 0.5rem;
+        padding: 5%;
+    }
+
+    .information {
+        font-size: 0.6rem;
+    }
+
+    .ending {
+        font-size: 0.4rem;
+    }
+
+    .contact-button {
+        font-size: 0.4rem;
+    }
+
+    .ending a {
+        font-size: 1rem;
+    }
+
+    .footer {
+        font-size: 0.45rem;
+    }
+
+    .footer a {
+        font-size: 1.2rem;
+        margin-right: 1%;
+    }
+}
